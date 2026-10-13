@@ -1,0 +1,108 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CV Saya</title>
+<style>
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f1f5f9;
+  color: #263247;
+  line-height: 1.7;
+}
+.container {
+  max-width: 760px;
+  margin: 35px auto;
+  padding: 28px;
+  background: white;
+  border-radius: 18px;
+  box-shadow: 0 8px 30px #00000010;
+}
+header {
+  background: #172554;
+  color: white;
+  padding: 30px;
+  border-radius: 14px;
+}
+header h1 { margin: 0; font-size: 30px; }
+header p { color: #bfdbfe; margin-bottom: 0; }
+h2 {
+  color: #1d4ed8;
+  font-size: 19px;
+  border-bottom: 2px solid #dbeafe;
+  padding-bottom: 6px;
+  margin-top: 26px;
+}
+a { color: #2563eb; }
+.tag {
+  display: inline-block;
+  background: #dbeafe;
+  color: #1e40af;
+  padding: 5px 11px;
+  border-radius: 20px;
+  margin: 3px;
+  font-size: 13px;
+}
+footer {
+  text-align: center;
+  color: #64748b;
+  margin-top: 25px;
+  font-size: 13px;
+}
+</style>
+</head>
+<body>
+<div class="container">
+<header>
+  <p>CURRICULUM VITAE</p>
+  <h1>Nama Lengkap Kamu</h1>
+  <p>Pelajar | Rekayasa Perangkat Lunak</p>
+</header>
+
+<section>
+<h2>Tentang Saya</h2>
+<p>Saya adalah pelajar jurusan RPL yang tertarik
+pada pemrograman dan pengembangan website.
+Saya senang belajar hal baru dan mengembangkan
+kemampuan di bidang teknologi.</p>
+</section>
+
+<section>
+<h2>Pendidikan</h2>
+<p><b>SMK Negeri 12 Jakarta</b></p>
+<p>Jurusan Rekayasa Perangkat Lunak (RPL)</p>
+<p>2026 – Sekarang</p>
+</section>
+
+<section>
+<h2>Keahlian</h2>
+<span class="tag">HTML</span>
+<span class="tag">CSS</span>
+<span class="tag">Python Dasar</span>
+<span class="tag">Microsoft Office</span>
+</section>
+
+<section>
+<h2>Proyek</h2>
+<p><b>Website Pribadi</b><br>
+Membuat website sederhana menggunakan HTML
+dan CSS.</p>
+<p><b>Program Python</b><br>
+Membuat program sederhana untuk latihan logika.</p>
+</section>
+
+<section>
+<h2>Kontak</h2>
+<p>Email: emailkamu@example.com</p>
+<p>GitHub: <a href="https://github.com/USERNAME">
+github.com/USERNAME</a></p>
+</section>
+
+<footer>Terima kasih telah mengunjungi CV saya.</footer>
+</div>
+</body>
+</html>
